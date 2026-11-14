@@ -111,7 +111,7 @@ return [
         | Here you may update the modules' assets path.
         |
         */
-        'assets' => public_path('modules'),
+        'assets' => public_path('cores'),
 
         /*
         |--------------------------------------------------------------------------

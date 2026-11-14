@@ -1,0 +1,30 @@
+{
+    "name": "nwidart/auth",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\Auth\\": "app/",
+            "Core\\Auth\\Database\\Factories\\": "database/factories/",
+            "Core\\Auth\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Core\\Auth\\Tests\\": "tests/"
+        }
+    }
+}

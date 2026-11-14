@@ -16,7 +16,7 @@
         "vite": "^7.0.7"
     },
     "dependencies": {
-        "@inertiajs/react": "^3.7.1"
+        "@inertiajs/react": "^3.11.0"
     },
     "allowScripts": {
         "esbuild@0.28.2": true

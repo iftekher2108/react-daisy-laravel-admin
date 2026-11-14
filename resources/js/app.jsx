@@ -8,10 +8,10 @@ if (el && el.dataset.page) {
     createInertiaApp({
         resolve: (name) => {
             const appPages = import.meta.glob('./Pages/**/*.jsx')
-            const modulePages = import.meta.glob('/Modules/*/resources/js/Pages/**/*.jsx')
+            const modulePages = import.meta.glob('/Core/*/resources/js/Pages/**/*.jsx')
 
             const parts = name.split('/')
-            const modulePage = `/Modules/${parts[0]}/resources/js/Pages/${parts.slice(1).join('/')}.jsx`
+            const modulePage = `/Core/${parts[0]}/resources/js/Pages/${parts.slice(1).join('/')}.jsx`
 
             if (modulePages[modulePage]) {
                 return modulePages[modulePage]()
